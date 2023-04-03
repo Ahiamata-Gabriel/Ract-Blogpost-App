@@ -1,0 +1,58 @@
+.CreatePost {
+  width: 100%;
+  height: calc(100vh - 80px);
+  display: grid;
+  place-items: center;
+}
+
+.Post__container {
+  width: 500px;
+  height: auto;
+  padding: 20px;
+  background-color: black;
+  border-radius: 12px;
+  color: white;
+  display: flex;
+  flex-direction: column;
+}
+
+.Post__container h1 {
+  text-align: center;
+}
+
+.Post__container label {
+  font-size: 25px;
+}
+.Post__container .Input__fields {
+  margin-top: 30px;
+  display: flex;
+  flex-direction: column;
+}
+
+.Input__fields input,
+.Input__fields textarea {
+  font-size: 18px;
+  border: none;
+  border-radius: 2px;
+  padding: 5px;
+}
+
+.Input__fields input {
+  height: 40px;
+}
+.Input__fields textarea {
+  height: 150px;
+}
+
+.Post__container button {
+  margin-top: 20px;
+  height: 40px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 18px;
+}
+input,
+textarea {
+  margin-top: 5px;
+}
